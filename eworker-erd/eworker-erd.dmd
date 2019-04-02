@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="eworker-erd" id="26DF1A5C-C47B-F009-61FD-1B6A81FA05FB" version="3.5">
+<createdBy>jacek</createdBy>
+<createdTime>2019-03-20 20:56:25 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>26DF1A5C-C47B-F009-61FD-1B6A81FA05FB</designId>
+</OSDM_Design>
