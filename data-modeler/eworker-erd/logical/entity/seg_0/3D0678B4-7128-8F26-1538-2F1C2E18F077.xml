@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3D0678B4-7128-8F26-1538-2F1C2E18F077" name="language_lvl">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:20:07 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="A7A9DA5A-2698-89B1-5919-71D7541058FF">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:20:18 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="level" id="510C54E9-40DC-0DEF-4A10-E494789F53FD">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:20:50 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="B8415193-65BA-289D-4F85-74977E1CEBBC">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:45:02 UTC</createdTime>
+<generatorID>DEFB9A74-1BE0-810D-C828-D96F6DA34043</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<referedAttribute>FBA8F89B-2DD2-6822-9A77-2C59A85A9D21</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8CE27371-062F-39C2-5EA4-D892B5AAED55" name="language_lvl PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:20:35 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A7A9DA5A-2698-89B1-5919-71D7541058FF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

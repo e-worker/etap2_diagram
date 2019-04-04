@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FABB5513-70FB-C8F6-6265-CE86CDAFDEE3" name="student_language">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:49:52 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="student_id" id="CAB6CAA1-9EAF-2578-62EB-C9F123E0CADC">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:49:52 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="76554603-0AAA-BD34-8C54-42A2EC85231E" referredColumn="FBF7B9B6-267F-2F31-BFD1-0C9CBCCE4091"/>
+</associations>
+</Column>
+<Column name="language_id" id="26B2E0D4-6B66-40CA-0FE2-E4B38FD834F0">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:49:52 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="757F401E-6C66-F79C-23C0-E3D15B690A4C" referredColumn="C7CEF4D1-4104-F1C1-437D-121EFE9CF73B"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="AA249572-02F1-FA12-A607-4B0F2B1792D6" name="student_language_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:49:52 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAB6CAA1-9EAF-2578-62EB-C9F123E0CADC"/>
+<colUsage columnID="26B2E0D4-6B66-40CA-0FE2-E4B38FD834F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE3D42A1-7778-B08B-F698-71BDC82F510B" name="student_language_student_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:49:52 UTC</createdTime>
+<generatorID>6CE4D0CD-5E4F-4239-4793-676A003D1C05</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CAB6CAA1-9EAF-2578-62EB-C9F123E0CADC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C4856A4A-7F3E-9DC1-A732-5A5BAE7A2AD3" name="student_language_language_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:49:52 UTC</createdTime>
+<generatorID>6CE4D0CD-5E4F-4239-4793-676A003D1C05</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26B2E0D4-6B66-40CA-0FE2-E4B38FD834F0"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EAEA1209-DF4E-5E98-B72B-610E6B6A8D99" name="language">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:16:29 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="FBA8F89B-2DD2-6822-9A77-2C59A85A9D21">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:16:44 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="65722694-E0DA-41FB-90D4-F8D6E3CF2E9C">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:17:03 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CC20AFC5-2D82-8536-852E-F30110898520" name="language PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:17:01 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FBA8F89B-2DD2-6822-9A77-2C59A85A9D21</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

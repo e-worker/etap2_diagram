@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BDA4C231-0016-D0DF-320F-EDFFCEF9B355" name="language">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:56:49 UTC</createdTime>
+<generatorID>EAEA1209-DF4E-5E98-B72B-610E6B6A8D99</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C7CEF4D1-4104-F1C1-437D-121EFE9CF73B">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:56:49 UTC</createdTime>
+<generatorID>FBA8F89B-2DD2-6822-9A77-2C59A85A9D21</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="8D93F0C5-F933-D7F7-1DD3-9DD286E26368">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:56:49 UTC</createdTime>
+<generatorID>65722694-E0DA-41FB-90D4-F8D6E3CF2E9C</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1B502D48-101C-5DC6-4EF4-AD863C7DBDC4" name="language_PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:56:49 UTC</createdTime>
+<generatorID>CC20AFC5-2D82-8536-852E-F30110898520</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C7CEF4D1-4104-F1C1-437D-121EFE9CF73B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

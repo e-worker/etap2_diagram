@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="employer_job_offer" directorySegmentName="seg_0" id="7D0188D1-76B1-8CA5-7EE7-2C4C9487971A">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:48:19 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<sourcePk>B6226B10-696E-9097-322A-6F202F451F2D</sourcePk>
+<targetPk>89AF6AE1-8CE7-CAED-B34C-7264E8B2C5C9</targetPk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>1B39B30D-73C3-CAB5-9088-DC7E3105DE05</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>EF302D7E-BBCD-5D08-D0E0-2545B0C2472E</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

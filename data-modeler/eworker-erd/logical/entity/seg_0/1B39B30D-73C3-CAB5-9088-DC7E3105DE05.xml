@@ -1,0 +1,178 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1B39B30D-73C3-CAB5-9088-DC7E3105DE05" name="employer">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:42:49 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="28A883C3-2717-63E5-A0B5-CABC49005EBB">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:43:31 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="company_name" id="C0D1672E-D55A-6D51-6924-5C68BD0674FA">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:43:56 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="city" id="F8D99E97-4C54-6384-D326-A60EB0C9CABB">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:44:43 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>127</dataTypeSize>
+<ownDataTypeParameters>127,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="street" id="05BE73F1-D1C0-C656-4960-64F46B2EEA98">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:46:41 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>127</dataTypeSize>
+<ownDataTypeParameters>127,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="house_number" id="B475F9E0-4ADD-E74C-B6EA-80B3A233AA54">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:47:30 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="flat_number" id="E103FD26-FEB7-4B63-B306-8C1C1923BB99">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:49:58 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="353280C2-2A58-E1BA-840B-F8755FDF40A4">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:50:32 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>127</dataTypeSize>
+<ownDataTypeParameters>127,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="phone" id="1966A643-8E82-7D9E-DF7F-A02546B7AAF9">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:50:58 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="8FBE9077-5169-07C6-727C-9FD3B9D272D4">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:51:20 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="password" id="9FD549D9-E03B-6C5A-735A-305B79E95B2D">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:51:50 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="creation_date" id="66487180-F691-C1DE-EFB6-E3A14C6AD5AF">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:53:11 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B6226B10-696E-9097-322A-6F202F451F2D" name="employer PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 22:43:51 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>28A883C3-2717-63E5-A0B5-CABC49005EBB</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

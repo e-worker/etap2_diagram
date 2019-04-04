@@ -1,0 +1,263 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EF302D7E-BBCD-5D08-D0E0-2545B0C2472E" name="job_offer">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:16:00 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="8E2F7316-6E85-0621-F1B7-403B6EBDAD4A">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:16:22 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="requirement" id="53ED2D9B-1156-DCC8-817B-D49734BB5012">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:16:38 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="responsibility" id="55B47547-E707-E714-39A5-CB0B7B194677">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:17:58 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="experience" id="6CEAB419-A81B-1E26-7E41-4AE535A21DDD">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:19:00 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="experience_text" id="429B918F-B618-47D8-7B21-35143DC8371B">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:21:09 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="volunteer" id="9AD41447-BDB0-EB55-60FA-EEDF4FC03775">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:22:23 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="volunteer_text" id="07370247-D3C8-B20B-C168-FF20BF1EF11B">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:23:16 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="course" id="D6528A45-4CA3-CB50-A762-5AAA62B3655C">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:24:01 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="course_text" id="79C4ED9A-49E0-072C-9E64-EE59D5307CDC">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:24:17 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="achievement" id="67681C62-EAF8-3E64-0BD1-9B6EED3BA40D">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:24:49 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="achievement_text" id="887E9834-4BA9-FC8F-4046-2DBC640EF0A6">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:28:04 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="interest_text" id="8A0BF0C2-4D27-D4B3-A56D-EB44125B7363">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:28:24 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="description" id="0B00EE16-606C-0C9A-4CD8-5F6BEFADE4F2">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:30:19 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sallary_from" id="7CB5EA74-2620-1338-9F3E-15FF915E9C84">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:31:38 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sallary_to" id="92144224-95F8-B8BD-04D7-C2EC29B9532A">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:32:44 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="creation_date" id="19CC8364-FE2B-E24B-2C75-F0AABDFAE2DD">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:33:21 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="045D8D25-D47C-6783-729A-4E8D62669E65">
+<createdBy>jacek</createdBy>
+<createdTime>2019-03-26 11:22:57 UTC</createdTime>
+<generatorID>7D0188D1-76B1-8CA5-7EE7-2C4C9487971A</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<referedAttribute>28A883C3-2717-63E5-A0B5-CABC49005EBB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="89AF6AE1-8CE7-CAED-B34C-7264E8B2C5C9" name="job_offer PK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:39:56 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8E2F7316-6E85-0621-F1B7-403B6EBDAD4A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

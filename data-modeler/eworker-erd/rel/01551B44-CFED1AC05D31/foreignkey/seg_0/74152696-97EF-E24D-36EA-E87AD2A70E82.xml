@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="74152696-97EF-E24D-36EA-E87AD2A70E82" containerWithKeyObject="A52618A7-526D-0309-DB28-EC945234CD88" localFKIndex="E9E53D18-02C1-CDE3-A15D-299197809D05" name="language_job_offer_job_offer_FK">
+<createdBy>Administrator</createdBy>
+<createdTime>2019-03-20 23:41:53 UTC</createdTime>
+<generatorID>08D30438-3370-74CD-E413-7AFF74D336CC</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<referredTableLongName>job_offer</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>1257025A-AF3E-6042-0C7D-685A062F3CBF</referredTableID>
+<keyObject>C5DD6045-21A8-BC70-AE09-25B964CAABEA</keyObject>
+<referredKeyID>C5DD6045-21A8-BC70-AE09-25B964CAABEA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>job_offer_ID</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
