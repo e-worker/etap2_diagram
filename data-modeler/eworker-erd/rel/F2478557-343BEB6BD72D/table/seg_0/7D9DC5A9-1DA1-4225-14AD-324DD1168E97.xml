@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7D9DC5A9-1DA1-4225-14AD-324DD1168E97" name="company">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 19:33:40 UTC</createdTime>
+<generatorID>1B39B30D-73C3-CAB5-9088-DC7E3105DE05</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="F5E06057-13E8-5DC7-AAFD-2816BF44B43D">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 19:33:40 UTC</createdTime>
+<generatorID>28A883C3-2717-63E5-A0B5-CABC49005EBB</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="company_name" id="FB00BA2B-160F-BDA0-3E2F-464B487A5364">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 19:33:40 UTC</createdTime>
+<generatorID>C0D1672E-D55A-6D51-6924-5C68BD0674FA</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="city" id="C4465ABF-D820-F012-BE17-4FDD43013876">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 19:33:40 UTC</createdTime>
+<generatorID>F8D99E97-4C54-6384-D326-A60EB0C9CABB</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>127</dataTypeSize>
+<ownDataTypeParameters>127,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="street" id="4EFA9FA1-0651-C882-FCF7-E342967F4903">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 19:33:40 UTC</createdTime>
+<generatorID>05BE73F1-D1C0-C656-4960-64F46B2EEA98</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>127</dataTypeSize>
+<ownDataTypeParameters>127,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="house_number" id="B3F0C6F6-41C4-33A5-78FF-31F91DA5DFCF">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 19:33:40 UTC</createdTime>
+<generatorID>B475F9E0-4ADD-E74C-B6EA-80B3A233AA54</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="flat_number" id="153CA520-33A7-67A1-09B2-ADE53E82E7BF">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 19:33:40 UTC</createdTime>
+<generatorID>E103FD26-FEB7-4B63-B306-8C1C1923BB99</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="975E0006-2F2E-5F29-7803-B07B7B7B3A72">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 19:33:40 UTC</createdTime>
+<generatorID>353280C2-2A58-E1BA-840B-F8755FDF40A4</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>127</dataTypeSize>
+<ownDataTypeParameters>127,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="phone" id="F2887F30-C98A-CA4C-B614-4DB7FB9F43B8">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 19:33:40 UTC</createdTime>
+<generatorID>1966A643-8E82-7D9E-DF7F-A02546B7AAF9</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="3BD4470B-C6DE-CF02-375E-6B54433DBB9D">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 19:33:40 UTC</createdTime>
+<generatorID>8FBE9077-5169-07C6-727C-9FD3B9D272D4</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="password" id="CE7D943F-29CA-21DB-A455-AAF377FCEA26">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 19:33:40 UTC</createdTime>
+<generatorID>9FD549D9-E03B-6C5A-735A-305B79E95B2D</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255</dataTypeSize>
+<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creation_date" id="2793496D-E2CF-4BBB-ACCA-48796D3B553B">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 19:33:40 UTC</createdTime>
+<generatorID>66487180-F691-C1DE-EFB6-E3A14C6AD5AF</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="499EA922-AFD4-E8C5-FF1E-7463A4E46DB7" name="company_PK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 19:33:40 UTC</createdTime>
+<generatorID>B6226B10-696E-9097-322A-6F202F451F2D</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5E06057-13E8-5DC7-AAFD-2816BF44B43D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

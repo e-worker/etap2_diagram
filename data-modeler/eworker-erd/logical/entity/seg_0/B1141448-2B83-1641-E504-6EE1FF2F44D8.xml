@@ -4,7 +4,7 @@
 <createdTime>2019-04-04 09:16:33 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,7 +20,7 @@
 <createdTime>2019-04-04 09:25:03 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
 </engineerTo>
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
@@ -30,7 +30,7 @@
 <createdTime>2019-04-04 09:17:58 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -43,7 +43,7 @@
 <createdTime>2019-04-04 09:17:58 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -57,7 +57,7 @@
 <createdTime>2019-04-04 09:17:58 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -70,7 +70,7 @@
 <createdTime>2019-04-04 09:17:58 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -84,7 +84,7 @@
 <createdTime>2019-04-04 09:17:58 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -97,7 +97,7 @@
 <createdTime>2019-04-04 09:17:58 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -111,7 +111,7 @@
 <createdTime>2019-04-04 09:17:58 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -124,7 +124,7 @@
 <createdTime>2019-04-04 09:17:58 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -138,7 +138,7 @@
 <createdTime>2019-04-04 09:17:58 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -151,7 +151,7 @@
 <createdTime>2019-04-04 09:17:58 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -165,7 +165,7 @@
 <createdTime>2019-04-04 09:17:58 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -179,7 +179,7 @@
 <createdTime>2019-04-04 09:17:58 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -192,7 +192,7 @@
 <createdTime>2019-04-04 09:17:58 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -206,7 +206,7 @@
 <createdTime>2019-04-04 09:17:58 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -219,7 +219,7 @@
 <createdTime>2019-04-04 09:17:58 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
 </engineerTo>
 <nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
@@ -227,13 +227,13 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id1" id="C067C2FB-5581-043B-6891-EE256443E54B">
+<Attribute name="student_id" id="C067C2FB-5581-043B-6891-EE256443E54B">
 <createdBy>jacek</createdBy>
 <createdTime>2019-04-04 09:26:03 UTC</createdTime>
 <generatorID>D0D692A7-A64B-A872-6A1B-8486648077F8</generatorID>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
 </engineerTo>
 <referedAttribute>87F4F1D6-E76C-C691-DFEA-57B03D73542E</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -248,7 +248,7 @@
 <createdTime>2019-04-04 09:25:46 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

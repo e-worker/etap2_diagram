@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BF9F3114-EF53-5D87-05EA-301660C1C689" name="student_skill">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 18:51:46 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="1567AEDC-9F77-0BED-E020-8D8FB2B1A76A">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 18:55:15 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_id" id="199DAC99-88DE-8119-AAC3-7836E78BA727">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 18:52:50 UTC</createdTime>
+<generatorID>A7246491-9846-4C04-99CD-F2D9C1568DB7</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
+</engineerTo>
+<referedAttribute>87F4F1D6-E76C-C691-DFEA-57B03D73542E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="skill_id" id="713B685F-CBED-3CC9-4F26-6BCFEF7ED74C">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 18:53:48 UTC</createdTime>
+<generatorID>AF5DEE55-2F28-6340-0BB2-A79FADBD1726</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
+</engineerTo>
+<referedAttribute>08ACF885-1CCB-EF7B-112C-10A39571247F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CE5DD3FC-E6E7-95EE-A643-7B83FF89CF97" name="student_skill PK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 18:52:01 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>1567AEDC-9F77-0BED-E020-8D8FB2B1A76A</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

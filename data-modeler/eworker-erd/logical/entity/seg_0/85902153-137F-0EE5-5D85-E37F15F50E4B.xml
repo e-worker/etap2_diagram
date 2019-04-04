@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="85902153-137F-0EE5-5D85-E37F15F50E4B" name="student_degree_course">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 18:50:21 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="8B1631E7-44FE-B6EA-CC26-DC0A03AEAD42">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 18:50:37 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="student_id" id="AA08AC44-694B-7E08-B655-1766825E714A">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 18:51:26 UTC</createdTime>
+<generatorID>7DF554AD-322F-61E6-A457-1E6DE16FD9AA</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
+</engineerTo>
+<referedAttribute>87F4F1D6-E76C-C691-DFEA-57B03D73542E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="degree_course_id" id="FD851DD6-23C9-4E07-2AF1-B06947A95FE6">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 18:51:32 UTC</createdTime>
+<generatorID>90CBE746-AEFD-DA0C-5B89-2A56FD8AA78B</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
+</engineerTo>
+<referedAttribute>214D7202-6D92-1009-E575-391469CD05B6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="148784B5-CFCD-0701-99D6-9D91D908672D" name="student_degree_course PK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 18:51:15 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>8B1631E7-44FE-B6EA-CC26-DC0A03AEAD42</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
