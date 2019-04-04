@@ -89,6 +89,34 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id1" id="2DC21EC6-4B31-2754-9B2A-299DF6F0ED82">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 18:16:54 UTC</createdTime>
+<generatorID>D3A83AAC-228A-B543-1968-97D11E1ABB8D</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<referedAttribute>87F4F1D6-E76C-C691-DFEA-57B03D73542E</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="31DA2546-9062-99A9-C58C-04022494A0E1">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 18:17:08 UTC</createdTime>
+<generatorID>7DA9E3EF-62F7-F8A8-EDD3-57364151AC28</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<referedAttribute>28A883C3-2717-63E5-A0B5-CABC49005EBB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="59FCE10B-58B7-269A-0FEB-42BFA980AE36" name="message PK">
@@ -100,6 +128,7 @@
 <item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="false"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>03BBEF0F-7EB1-7FE5-4D6B-3EE3585B553C</newElementsIDs>
 <usedAttributes>
 <attributeRef>03BBEF0F-7EB1-7FE5-4D6B-3EE3585B553C</attributeRef>
 </usedAttributes>

@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C396BFF-F17A-3452-4EED-30DD704F7CDE" name="Relation_7">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 18:45:10 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="skill_id" id="0C9B99B0-3DCE-716D-B918-135E6D3F1ADF">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 18:45:10 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="5476505E-0A3A-470C-90E3-3FF545503BB4" referredColumn="1BD7FAB7-2D2C-F348-90A7-5106F5257653"/>
+</associations>
+</Column>
+<Column name="student_id" id="148EC321-3929-0412-C157-A64B1377EBB6">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 18:45:10 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E1333907-3BFE-AFD3-711A-5B5C9159938B" referredColumn="D9CBF538-72E3-B85E-109C-814C4DD73785"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E60918FE-01D0-5BE8-E3AA-523EC8A69631" name="Relation_7_PK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 18:45:10 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C9B99B0-3DCE-716D-B918-135E6D3F1ADF"/>
+<colUsage columnID="148EC321-3929-0412-C157-A64B1377EBB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E756AED4-405C-A594-FC15-BB36D5B70C5B" name="Relation_7_skill_FK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 18:45:10 UTC</createdTime>
+<generatorID>21B634AB-C0D3-F9E3-9380-192103BB6E5B</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C9B99B0-3DCE-716D-B918-135E6D3F1ADF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C14327B4-9F85-8D2C-A49C-30860B401C8C" name="Relation_7_student_FK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 18:45:10 UTC</createdTime>
+<generatorID>21B634AB-C0D3-F9E3-9380-192103BB6E5B</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="148EC321-3929-0412-C157-A64B1377EBB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

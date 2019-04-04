@@ -170,6 +170,19 @@
 <use>0</use>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id2" id="3444DE88-A763-1CFC-0E9D-E6CE70ED96EA">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 18:31:52 UTC</createdTime>
+<generatorID>9006DD6C-BA38-CF12-C518-ED7CA616B25D</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<referedAttribute>24B7E042-E846-FF1D-31C3-C8B068F2F471</referedAttribute>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="AC0581E8-5BB7-2784-E909-666E5D46BBDA" name="Entity_1 PK">

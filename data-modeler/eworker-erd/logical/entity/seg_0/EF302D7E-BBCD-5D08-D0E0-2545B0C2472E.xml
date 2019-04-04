@@ -27,32 +27,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="requirement" id="53ED2D9B-1156-DCC8-817B-D49734BB5012">
-<createdBy>Administrator</createdBy>
-<createdTime>2019-03-20 23:16:38 UTC</createdTime>
-<ownerDesignName>eworker-erd</ownerDesignName>
-<engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>512 CHAR</dataTypeSize>
-<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="responsibility" id="55B47547-E707-E714-39A5-CB0B7B194677">
-<createdBy>Administrator</createdBy>
-<createdTime>2019-03-20 23:17:58 UTC</createdTime>
-<ownerDesignName>eworker-erd</ownerDesignName>
-<engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>512 CHAR</dataTypeSize>
-<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="experience" id="6CEAB419-A81B-1E26-7E41-4AE535A21DDD">
 <createdBy>Administrator</createdBy>
 <createdTime>2019-03-20 23:19:00 UTC</createdTime>
@@ -60,26 +34,11 @@
 <engineerTo>
 <item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="experience_text" id="429B918F-B618-47D8-7B21-35143DC8371B">
-<createdBy>Administrator</createdBy>
-<createdTime>2019-03-20 23:21:09 UTC</createdTime>
-<ownerDesignName>eworker-erd</ownerDesignName>
-<engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>512 CHAR</dataTypeSize>
-<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="volunteer" id="9AD41447-BDB0-EB55-60FA-EEDF4FC03775">
 <createdBy>Administrator</createdBy>
@@ -88,26 +47,11 @@
 <engineerTo>
 <item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="volunteer_text" id="07370247-D3C8-B20B-C168-FF20BF1EF11B">
-<createdBy>Administrator</createdBy>
-<createdTime>2019-03-20 23:23:16 UTC</createdTime>
-<ownerDesignName>eworker-erd</ownerDesignName>
-<engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>512 CHAR</dataTypeSize>
-<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="course" id="D6528A45-4CA3-CB50-A762-5AAA62B3655C">
 <createdBy>Administrator</createdBy>
@@ -116,26 +60,11 @@
 <engineerTo>
 <item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="course_text" id="79C4ED9A-49E0-072C-9E64-EE59D5307CDC">
-<createdBy>Administrator</createdBy>
-<createdTime>2019-03-20 23:24:17 UTC</createdTime>
-<ownerDesignName>eworker-erd</ownerDesignName>
-<engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>512 CHAR</dataTypeSize>
-<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="achievement" id="67681C62-EAF8-3E64-0BD1-9B6EED3BA40D">
 <createdBy>Administrator</createdBy>
@@ -144,54 +73,11 @@
 <engineerTo>
 <item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT006</logicalDatatype>
 <dataTypeSize>1</dataTypeSize>
 <ownDataTypeParameters>1,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="achievement_text" id="887E9834-4BA9-FC8F-4046-2DBC640EF0A6">
-<createdBy>Administrator</createdBy>
-<createdTime>2019-03-20 23:28:04 UTC</createdTime>
-<ownerDesignName>eworker-erd</ownerDesignName>
-<engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>512 CHAR</dataTypeSize>
-<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="interest_text" id="8A0BF0C2-4D27-D4B3-A56D-EB44125B7363">
-<createdBy>Administrator</createdBy>
-<createdTime>2019-03-20 23:28:24 UTC</createdTime>
-<ownerDesignName>eworker-erd</ownerDesignName>
-<engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>512 CHAR</dataTypeSize>
-<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="description" id="0B00EE16-606C-0C9A-4CD8-5F6BEFADE4F2">
-<createdBy>Administrator</createdBy>
-<createdTime>2019-03-20 23:30:19 UTC</createdTime>
-<ownerDesignName>eworker-erd</ownerDesignName>
-<engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>512 CHAR</dataTypeSize>
-<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="sallary_from" id="7CB5EA74-2620-1338-9F3E-15FF915E9C84">
 <createdBy>Administrator</createdBy>
@@ -200,7 +86,6 @@
 <engineerTo>
 <item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -213,7 +98,6 @@
 <engineerTo>
 <item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -231,6 +115,19 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="description_text" id="D1AD3882-9E51-0B4E-1623-2EAB95F14D14">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 17:55:54 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="id1" id="045D8D25-D47C-6783-729A-4E8D62669E65">
 <createdBy>jacek</createdBy>
 <createdTime>2019-03-26 11:22:57 UTC</createdTime>
@@ -240,6 +137,21 @@
 <item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
 </engineerTo>
 <referedAttribute>28A883C3-2717-63E5-A0B5-CABC49005EBB</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id2" id="1A2020D0-6DF7-0805-6309-5456BE33EF0A">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 18:33:58 UTC</createdTime>
+<generatorID>F2E14417-03A7-FEB7-50CB-B4F0ACDB7C46</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<referedAttribute>D2E7DB61-0023-E622-EEAD-3A0929884F1A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>

@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="EAEA1209-DF4E-5E98-B72B-610E6B6A8D99" name="language">
-<createdBy>Administrator</createdBy>
-<createdTime>2019-03-20 22:16:29 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BED46DEE-CAF7-6C4C-7EC7-22A05D2E5889" name="student_language">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 18:27:09 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
 <item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id" id="FBA8F89B-2DD2-6822-9A77-2C59A85A9D21">
-<createdBy>Administrator</createdBy>
-<createdTime>2019-03-20 22:16:44 UTC</createdTime>
+<Attribute name="id" id="24B7E042-E846-FF1D-31C3-C8B068F2F471">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 18:31:49 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
 <item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
@@ -27,44 +27,25 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="name" id="65722694-E0DA-41FB-90D4-F8D6E3CF2E9C">
-<createdBy>Administrator</createdBy>
-<createdTime>2019-03-20 22:17:03 UTC</createdTime>
-<ownerDesignName>eworker-erd</ownerDesignName>
-<engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>50</dataTypeSize>
-<ownDataTypeParameters>50,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id1" id="9A1F126E-23DE-76CE-7392-89941B4C298D">
+<Attribute name="student_id" id="5DD35CCF-4301-6119-17CD-32E888C0CCFE">
 <createdBy>jacek</createdBy>
-<createdTime>2019-04-04 18:32:17 UTC</createdTime>
-<generatorID>90A3E880-A18F-787C-C0C7-24EFA2CC960F</generatorID>
+<createdTime>2019-04-04 18:34:51 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
 <item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>24B7E042-E846-FF1D-31C3-C8B068F2F471</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id2" id="B2290632-A357-CD49-0168-6981900C0759">
+<Attribute name="language_id" id="D3F60AA5-5EB6-A8BD-4B42-3643CBCB4809">
 <createdBy>jacek</createdBy>
-<createdTime>2019-04-04 18:33:58 UTC</createdTime>
-<generatorID>712C2B5F-9E84-ABF6-3573-B37AEB595378</generatorID>
+<createdTime>2019-04-04 18:35:13 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
 <item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<referedAttribute>D2E7DB61-0023-E622-EEAD-3A0929884F1A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -72,17 +53,16 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="CC20AFC5-2D82-8536-852E-F30110898520" name="language PK">
-<createdBy>Administrator</createdBy>
-<createdTime>2019-03-20 22:17:01 UTC</createdTime>
+<identifier id="7E9BDB20-BB74-F1F1-76BF-F0C28DE3BB61" name="student_language PK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-04 18:27:57 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="false"/>
+<item key="01551B44-8933-4A09-2807-CFED1AC05D31" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
-<attributeRef>FBA8F89B-2DD2-6822-9A77-2C59A85A9D21</attributeRef>
+<attributeRef>24B7E042-E846-FF1D-31C3-C8B068F2F471</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
