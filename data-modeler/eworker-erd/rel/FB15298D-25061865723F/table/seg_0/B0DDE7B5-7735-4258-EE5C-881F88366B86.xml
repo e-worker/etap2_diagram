@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0DDE7B5-7735-4258-EE5C-881F88366B86" name="job_type_info">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-08 19:32:19 UTC</createdTime>
+<generatorID>911E3ED0-C64C-606D-93EB-31503E20E490</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="3090FBB5-844A-43AE-0837-658A0D15C537">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-08 19:32:19 UTC</createdTime>
+<generatorID>DE655EB4-160C-8014-EF23-22AF06BB5BA6</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="8A3B28A2-324B-3D2F-4F93-E18EC7C90F2D">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-08 19:32:19 UTC</createdTime>
+<generatorID>254D8C06-C68F-0BFB-CC25-3A990719545D</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="job_type_info_ID" id="8EC598E7-478C-1CB1-CB1C-02277FF1CF0C">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-08 19:32:19 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
+<identityColumn>true</identityColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<isSurrogateColumn>true</isSurrogateColumn>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="17F2D279-FDD3-EC53-4DC5-3F9C9E2023FB" name="job_type_info_PK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-08 19:32:19 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<indexColumnUsage>
+<colUsage columnID="8EC598E7-478C-1CB1-CB1C-02277FF1CF0C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

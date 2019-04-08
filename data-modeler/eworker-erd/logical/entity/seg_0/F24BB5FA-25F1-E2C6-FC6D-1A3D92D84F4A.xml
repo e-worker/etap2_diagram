@@ -1,0 +1,57 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F24BB5FA-25F1-E2C6-FC6D-1A3D92D84F4A" name="student_type_info">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-08 18:31:58 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="F2478557-7D46-1546-0063-343BEB6BD72D" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id" id="56F8E605-A7B1-8E3C-EE56-F18E4257993F">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-08 18:32:17 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="F2478557-7D46-1546-0063-343BEB6BD72D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="name" id="6AA745B6-24A3-E537-E9D5-FBF1108F4C0C">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-08 18:32:27 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="F2478557-7D46-1546-0063-343BEB6BD72D" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="565FE64B-AB4E-57C4-292A-B4BD411F1E48" name="type_info PK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-08 18:32:25 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="F2478557-7D46-1546-0063-343BEB6BD72D" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>56F8E605-A7B1-8E3C-EE56-F18E4257993F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -4,7 +4,7 @@
 <createdTime>2019-04-04 17:52:35 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
+<item key="F2478557-7D46-1546-0063-343BEB6BD72D" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,116 +20,32 @@
 <createdTime>2019-04-04 17:55:28 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
+<item key="F2478557-7D46-1546-0063-343BEB6BD72D" value="true"/>
 </engineerTo>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="requirement" id="7CE8B6B4-A389-7538-BE69-A3AB6B889E05">
+<Attribute name="text" id="87F38F3A-A1D6-CEFF-9E44-8DA1B271A917">
 <createdBy>jacek</createdBy>
-<createdTime>2019-04-04 17:55:23 UTC</createdTime>
+<createdTime>2019-04-08 19:21:04 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
+<item key="F2478557-7D46-1546-0063-343BEB6BD72D" value="true"/>
 </engineerTo>
-<nullsAllowed>true</nullsAllowed>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>512 CHAR</dataTypeSize>
-<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="responsibility" id="7BED59C5-CD76-6AA7-C1E4-8DB182F24D6E">
+<Attribute name="job_offer_id" id="423A4CFF-7C40-2B2C-2F09-42F706917DE9">
 <createdBy>jacek</createdBy>
-<createdTime>2019-04-04 17:55:23 UTC</createdTime>
+<createdTime>2019-04-08 19:21:47 UTC</createdTime>
+<generatorID>934D443D-038F-E04C-5C86-239CEDB78DC6</generatorID>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>512 CHAR</dataTypeSize>
-<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="experience_text" id="3211A304-7CF9-10C3-3352-EA317E65FEB5">
-<createdBy>jacek</createdBy>
-<createdTime>2019-04-04 17:55:23 UTC</createdTime>
-<ownerDesignName>eworker-erd</ownerDesignName>
-<engineerTo>
-<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>512 CHAR</dataTypeSize>
-<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="volunteer_text" id="D8A47C2F-CD11-51FA-1311-6AAA797BF1AF">
-<createdBy>jacek</createdBy>
-<createdTime>2019-04-04 17:55:23 UTC</createdTime>
-<ownerDesignName>eworker-erd</ownerDesignName>
-<engineerTo>
-<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>512 CHAR</dataTypeSize>
-<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="course_text" id="F430AF2F-7C04-15B7-A296-EFD1C160D06A">
-<createdBy>jacek</createdBy>
-<createdTime>2019-04-04 17:55:23 UTC</createdTime>
-<ownerDesignName>eworker-erd</ownerDesignName>
-<engineerTo>
-<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>512 CHAR</dataTypeSize>
-<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="achievement_text" id="9882B70E-EDB8-7908-5499-C6B5170BD490">
-<createdBy>jacek</createdBy>
-<createdTime>2019-04-04 17:55:23 UTC</createdTime>
-<ownerDesignName>eworker-erd</ownerDesignName>
-<engineerTo>
-<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>512 CHAR</dataTypeSize>
-<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="interest_text" id="0836DFE4-DCEF-F5D4-DBF4-17E7DA143789">
-<createdBy>jacek</createdBy>
-<createdTime>2019-04-04 17:55:23 UTC</createdTime>
-<ownerDesignName>eworker-erd</ownerDesignName>
-<engineerTo>
-<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
-</engineerTo>
-<nullsAllowed>true</nullsAllowed>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>512 CHAR</dataTypeSize>
-<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id1" id="C052C726-5F8F-F833-B1D9-4353E35ED64B">
-<createdBy>jacek</createdBy>
-<createdTime>2019-04-04 17:58:06 UTC</createdTime>
-<generatorID>2B06B16C-7F0D-F056-04AF-2B930DACDB09</generatorID>
-<ownerDesignName>eworker-erd</ownerDesignName>
-<engineerTo>
-<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
+<item key="F2478557-7D46-1546-0063-343BEB6BD72D" value="true"/>
 </engineerTo>
 <referedAttribute>8E2F7316-6E85-0621-F1B7-403B6EBDAD4A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
@@ -144,7 +60,7 @@
 <createdTime>2019-04-04 17:55:32 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="C0464D62-93B4-2815-8623-645768914DB2" value="true"/>
+<item key="F2478557-7D46-1546-0063-343BEB6BD72D" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
