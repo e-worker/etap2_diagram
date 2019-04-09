@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="550521E4-1B54-9D7D-B76D-4E32C1D7CF15" name="degree_course">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-09 14:06:34 UTC</createdTime>
+<generatorID>90BC347D-480E-985C-CD77-27C1105E3FC4</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="FC302B21-EDC0-86DD-49BA-B6E7B261998F">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-09 14:06:34 UTC</createdTime>
+<generatorID>214D7202-6D92-1009-E575-391469CD05B6</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="name" id="0E0695C8-B38B-5D3E-15E0-0CE18F81390D">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-09 14:06:34 UTC</createdTime>
+<generatorID>72ADB58A-D520-3253-5CA1-6B6A73A5ABBE</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>255 CHAR</dataTypeSize>
+<ownDataTypeParameters>255 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="department_id" id="0DCB9D38-DD7C-3AA0-955F-79468EB245C7">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-09 14:06:34 UTC</createdTime>
+<generatorID>5AA260ED-32F3-7157-2C50-816AC25259F1</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0B6A8734-2EA0-EEC4-D7F2-B02DDF8A5095" referredColumn="873F179C-CB34-E2B3-0352-F3EEE6E16B3D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="28051B3B-6A19-4989-38B3-7C16B184DEE9" name="degree_course_PK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-09 14:06:34 UTC</createdTime>
+<generatorID>E90FB947-CFBF-7AA8-03E1-90227B0A659A</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC302B21-EDC0-86DD-49BA-B6E7B261998F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="489FAC23-71EC-9BFF-7137-54CC694FB13A" name="degree_course_department_FK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-09 14:06:34 UTC</createdTime>
+<generatorID>AEEA6476-074A-94A6-59D3-F05511359A0E</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0DCB9D38-DD7C-3AA0-955F-79468EB245C7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

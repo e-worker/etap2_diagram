@@ -4,10 +4,12 @@
 <createdTime>2019-04-08 18:40:43 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="F2478557-7D46-1546-0063-343BEB6BD72D" value="true"/>
+<item key="FB15298D-1033-BC4D-FBF0-25061865723F" value="true"/>
 </engineerTo>
 <sourcePk>565FE64B-AB4E-57C4-292A-B4BD411F1E48</sourcePk>
 <identifying>false</identifying>
+<nameOnSource>owned by</nameOnSource>
+<nameOnTarget>has</nameOnTarget>
 <optionalSource>true</optionalSource>
 <optionalTarget>false</optionalTarget>
 <sourceCardinality>1</sourceCardinality>
