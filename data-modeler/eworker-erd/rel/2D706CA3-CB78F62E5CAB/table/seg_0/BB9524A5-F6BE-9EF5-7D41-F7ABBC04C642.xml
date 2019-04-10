@@ -1,0 +1,124 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BB9524A5-F6BE-9EF5-7D41-F7ABBC04C642" name="message">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<generatorID>49E4009B-92B6-7825-D618-BF021E0EFF9B</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="C6142020-439E-483E-442D-DC89B79EEDB3">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<generatorID>03BBEF0F-7EB1-7FE5-4D6B-3EE3585B553C</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="header" id="9F73CD90-1DE9-1A6C-7FF4-4C0602911CE1">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<generatorID>0B9F6F33-A0C0-4B5E-9773-5001F1654CE7</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="content" id="9894FF51-5FF1-EBA6-0497-8715E2E50CDD">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<generatorID>A34B6829-3179-D6EB-68C3-250393251C7F</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>512 CHAR</dataTypeSize>
+<ownDataTypeParameters>512 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creation_date" id="0922E994-CE36-C905-CD2B-F3739A53C5AD">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<generatorID>994BA3EE-428C-ABCE-7FC5-D4E04E5A0E6B</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="student_id" id="7CB034F6-588B-DD60-309E-7900EF61F89A">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<generatorID>2DC21EC6-4B31-2754-9B2A-299DF6F0ED82</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="90C16CC2-A43B-299A-52BE-8A6AB6F458C2" referredColumn="11AC9CE3-6451-12D5-F1A3-99C7988E5900"/>
+</associations>
+</Column>
+<Column name="company_id" id="9A0E9A40-8B10-D41E-256C-7EB4B6C0D3DB">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<generatorID>31DA2546-9062-99A9-C58C-04022494A0E1</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7D86B8A5-2373-7C3F-6F12-E970D191DA3B" referredColumn="5C455C14-C10C-76CC-5606-F530B96CE3AB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A2860BF6-B979-DE84-3204-D8D2A56479C3" name="message_PK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<generatorID>59FCE10B-58B7-269A-0FEB-42BFA980AE36</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C6142020-439E-483E-442D-DC89B79EEDB3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2B80BAF9-C817-9F87-546F-FCC7090762B4" name="message_student_FK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<generatorID>D3A83AAC-228A-B543-1968-97D11E1ABB8D</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7CB034F6-588B-DD60-309E-7900EF61F89A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B59CC672-C0BE-87F8-CEFE-A17581956A3E" name="message_company_FK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<generatorID>7DA9E3EF-62F7-F8A8-EDD3-57364151AC28</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A0E9A40-8B10-D41E-256C-7EB4B6C0D3DB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

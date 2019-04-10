@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="708AF074-563D-B5DC-F8D8-BB25BD97874D" name="job_info">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<generatorID>ECA81DEB-9C34-9685-89DC-B06B668628AE</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="9E242388-FA84-495E-961A-0737E560F389">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<generatorID>52DAA88B-C02D-9C3B-F511-87D463A78B7F</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="text" id="B371B11B-8F28-2043-ED78-71D04C957886">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<generatorID>87F38F3A-A1D6-CEFF-9E44-8DA1B271A917</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT040</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="job_offer_id" id="621FDBED-AA3A-618D-F3BC-F545BE5757A2">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<generatorID>423A4CFF-7C40-2B2C-2F09-42F706917DE9</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B139B59E-29EF-590E-0AB6-952A1AE63846" referredColumn="7C69E3AD-8C0F-C39C-42C2-BF099726DC54"/>
+</associations>
+</Column>
+<Column name="job_type_info_job_type_info_ID" id="3107EA34-FF7F-6C5F-F94A-1E193562559A">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0A001E13-5456-5551-2DBE-84A422B43F62" referredColumn="DB0DC3BC-FC8A-D077-2E51-24DFCE246B06"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="C5118D43-378D-9F36-9E0F-394C6351FB41" name="job_info_PK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<generatorID>E9958E96-A048-36DB-50C0-CB994A5CF09B</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9E242388-FA84-495E-961A-0737E560F389"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D4E67A19-EB51-5A2F-16AC-3F8E5062B115" name="job_info_job_type_info_FK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<generatorID>12B03F31-69EE-DF78-0D20-8C18380739D9</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3107EA34-FF7F-6C5F-F94A-1E193562559A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="563DCFC8-DA49-FCC7-E498-068DD8E96227" name="job_info_job_offer_FK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<generatorID>934D443D-038F-E04C-5C86-239CEDB78DC6</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="621FDBED-AA3A-618D-F3BC-F545BE5757A2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
