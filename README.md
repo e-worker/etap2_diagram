@@ -1,6 +1,11 @@
 # etap2_diagram
 Diagram ERD
 
+DLL File generated type:
+-----
+
+SQL Server 2008
+
 About
 -----
 
