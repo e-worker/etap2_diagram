@@ -11,6 +11,7 @@
 <Column name="id" id="5C455C14-C10C-76CC-5606-F530B96CE3AB">
 <createdBy>jacek</createdBy>
 <createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<commentInRDBMS>Table which stores information about company.</commentInRDBMS>
 <generatorID>28A883C3-2717-63E5-A0B5-CABC49005EBB</generatorID>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

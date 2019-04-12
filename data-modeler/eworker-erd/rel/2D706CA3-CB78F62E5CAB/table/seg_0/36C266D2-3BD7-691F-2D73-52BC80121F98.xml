@@ -11,6 +11,7 @@
 <Column name="id" id="62BC8546-B3D8-9047-D2E8-3FDA68D8F73B">
 <createdBy>jacek</createdBy>
 <createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<commentInRDBMS>Table which stores information about available levels of specific language.</commentInRDBMS>
 <generatorID>A7A9DA5A-2698-89B1-5919-71D7541058FF</generatorID>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

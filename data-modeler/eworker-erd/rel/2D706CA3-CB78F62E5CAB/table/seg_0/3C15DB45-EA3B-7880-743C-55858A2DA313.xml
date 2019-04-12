@@ -11,6 +11,7 @@
 <Column name="id" id="7C69E3AD-8C0F-C39C-42C2-BF099726DC54">
 <createdBy>jacek</createdBy>
 <createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<commentInRDBMS>Table which stores job offers.</commentInRDBMS>
 <generatorID>8E2F7316-6E85-0621-F1B7-403B6EBDAD4A</generatorID>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

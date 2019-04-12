@@ -11,6 +11,7 @@
 <Column name="id" id="5D3D6B41-6DF8-BB8B-9ADF-2E6C91A9E098">
 <createdBy>jacek</createdBy>
 <createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<commentInRDBMS>Table which stores information about available degree courses.</commentInRDBMS>
 <generatorID>214D7202-6D92-1009-E575-391469CD05B6</generatorID>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

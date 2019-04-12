@@ -11,10 +11,14 @@
 <Column name="id" id="846F168F-2BD6-98D4-7B5A-61374673F40B">
 <createdBy>jacek</createdBy>
 <createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<commentInRDBMS>Table which stores student languages. </commentInRDBMS>
 <generatorID>0E2138A7-F76D-D935-FF5C-0C56208D284B</generatorID>
 <ownerDesignName>eworker-erd</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="student_id" id="4592754C-5E1F-5E52-FE25-2CE9999113F3">

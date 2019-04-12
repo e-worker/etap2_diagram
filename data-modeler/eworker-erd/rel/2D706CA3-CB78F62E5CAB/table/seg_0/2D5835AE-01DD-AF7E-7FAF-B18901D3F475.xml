@@ -11,10 +11,14 @@
 <Column name="id" id="4F5F2279-AE6F-E281-1E26-300C7FEEDD43">
 <createdBy>jacek</createdBy>
 <createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<commentInRDBMS>Table which stores information about required language for specific job.</commentInRDBMS>
 <generatorID>586CE388-80BD-1673-19D1-67AE4CE70B77</generatorID>
 <ownerDesignName>eworker-erd</ownerDesignName>
-<use>0</use>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementColumn>true</autoIncrementColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
 <Column name="language_id" id="5534A735-D8E8-4274-6062-D516D488D801">
@@ -73,7 +77,7 @@
 <colUsage columnID="5534A735-D8E8-4274-6062-D516D488D801"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="802EB87A-8B0E-9F5E-A751-57D0679A232A" name="job_offer_language_job_offer_FK">
+<ind_PK_UK id="802EB87A-8B0E-9F5E-A751-57D0679A232A" name="job_offer_FK">
 <createdBy>jacek</createdBy>
 <createdTime>2019-04-10 12:27:45 UTC</createdTime>
 <generatorID>6F1C2D6F-DD6B-4499-EE46-7666E7F7DE94</generatorID>

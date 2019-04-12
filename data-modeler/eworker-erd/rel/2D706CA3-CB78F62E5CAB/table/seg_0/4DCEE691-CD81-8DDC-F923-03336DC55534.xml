@@ -11,6 +11,7 @@
 <Column name="id" id="2922071B-8866-B851-1532-02D698626B7B">
 <createdBy>jacek</createdBy>
 <createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<commentInRDBMS>Table which stores available skills to pick from.</commentInRDBMS>
 <generatorID>08ACF885-1CCB-EF7B-112C-10A39571247F</generatorID>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

@@ -11,6 +11,7 @@
 <Column name="id" id="1CEA4C4A-06A1-DAF4-5A36-91C7F0AE4E65">
 <createdBy>jacek</createdBy>
 <createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<commentInRDBMS>Table which stores information about required skill for specific job offer. </commentInRDBMS>
 <generatorID>2945DA8E-5262-5F6D-BAF9-E0BECA88210A</generatorID>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

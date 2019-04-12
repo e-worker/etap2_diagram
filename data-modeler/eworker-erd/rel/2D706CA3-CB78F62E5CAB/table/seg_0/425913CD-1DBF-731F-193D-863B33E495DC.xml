@@ -11,6 +11,7 @@
 <Column name="id" id="11AC9CE3-6451-12D5-F1A3-99C7988E5900">
 <createdBy>jacek</createdBy>
 <createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<commentInRDBMS>Table which stores required information about student.</commentInRDBMS>
 <generatorID>87F4F1D6-E76C-C691-DFEA-57B03D73542E</generatorID>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

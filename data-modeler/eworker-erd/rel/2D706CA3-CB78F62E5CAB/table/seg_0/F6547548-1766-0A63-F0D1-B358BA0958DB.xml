@@ -11,6 +11,7 @@
 <Column name="id" id="18BD5357-2E40-D947-7AC1-4A1689757035">
 <createdBy>jacek</createdBy>
 <createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<commentInRDBMS>Table which stores required degree course for specific job offer.</commentInRDBMS>
 <generatorID>7FE16D50-13D5-967C-6B2C-56BCD67B4A1C</generatorID>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -63,7 +64,7 @@
 <colUsage columnID="18BD5357-2E40-D947-7AC1-4A1689757035"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="A90B9DED-08D4-493A-9107-020234E77BF9" name="offer_degree_course_degree_course_FK">
+<ind_PK_UK id="A90B9DED-08D4-493A-9107-020234E77BF9" name="degree_course_FK">
 <createdBy>jacek</createdBy>
 <createdTime>2019-04-10 12:27:45 UTC</createdTime>
 <generatorID>A9082823-543F-614D-BD4C-878172756EA3</generatorID>
@@ -74,7 +75,7 @@
 <colUsage columnID="142192E5-D956-C217-DA77-357AA5A8A6FA"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="19D3D0FD-AEBF-B866-4B67-81F8F04664C2" name="offer_degree_course_job_offer_FK">
+<ind_PK_UK id="19D3D0FD-AEBF-B866-4B67-81F8F04664C2" name="course_job_offer_FK">
 <createdBy>jacek</createdBy>
 <createdTime>2019-04-10 12:27:45 UTC</createdTime>
 <generatorID>A8EA6875-77D5-C6D0-C08C-9FC6B8D415A2</generatorID>

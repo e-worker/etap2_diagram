@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F866964F-527D-1982-4471-BD65F74ECF53" name="job_offer">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-12 13:27:55 UTC</createdTime>
+<generatorID>EF302D7E-BBCD-5D08-D0E0-2545B0C2472E</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="26FB9FAC-D8A9-F3C8-FB63-09512A6B7841">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-12 13:27:55 UTC</createdTime>
+<generatorID>8E2F7316-6E85-0621-F1B7-403B6EBDAD4A</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sallary_from" id="157A3AA0-4B94-9755-0EAC-9254DC9D8910">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-12 13:27:55 UTC</createdTime>
+<generatorID>7CB5EA74-2620-1338-9F3E-15FF915E9C84</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sallary_to" id="360FDEAA-2848-8368-DA79-C519173A41D2">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-12 13:27:55 UTC</createdTime>
+<generatorID>92144224-95F8-B8BD-04D7-C2EC29B9532A</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creation_date" id="2E541FA8-B7CD-9F75-9D5F-F916690373EB">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-12 13:27:55 UTC</createdTime>
+<generatorID>19CC8364-FE2B-E24B-2C75-F0AABDFAE2DD</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="company_id" id="A976E5BA-7ABA-B425-60A9-8B5DBCA22EC5">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-12 13:27:55 UTC</createdTime>
+<generatorID>045D8D25-D47C-6783-729A-4E8D62669E65</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="07BC83CF-036B-8AF0-B70C-43A2F4917C06" referredColumn="CE7BB58F-EBBF-47A5-2FC3-953A90365A39"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B383F66B-D216-79BD-DE68-71E467E4C50C" name="job_offer_PK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-12 13:27:55 UTC</createdTime>
+<generatorID>89AF6AE1-8CE7-CAED-B34C-7264E8B2C5C9</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="26FB9FAC-D8A9-F3C8-FB63-09512A6B7841"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8EF3B820-1AB0-AE7C-5FF2-2459506F083B" name="job_offer_company_FK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-12 13:27:56 UTC</createdTime>
+<generatorID>7D0188D1-76B1-8CA5-7EE7-2C4C9487971A</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A976E5BA-7ABA-B425-60A9-8B5DBCA22EC5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

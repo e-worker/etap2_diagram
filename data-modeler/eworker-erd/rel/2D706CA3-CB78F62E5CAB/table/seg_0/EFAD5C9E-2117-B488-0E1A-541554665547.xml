@@ -11,6 +11,7 @@
 <Column name="id" id="322A1B5B-ED66-E242-DE43-CA7FCE6347F2">
 <createdBy>jacek</createdBy>
 <createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<commentInRDBMS>Table which stores available departments to study in.</commentInRDBMS>
 <generatorID>F3876E24-1415-AF42-3F51-33FC25565ABB</generatorID>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

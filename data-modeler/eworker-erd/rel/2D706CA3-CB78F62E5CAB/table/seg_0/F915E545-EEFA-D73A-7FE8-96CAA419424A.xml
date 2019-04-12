@@ -11,6 +11,7 @@
 <Column name="id" id="4FCF003B-1B66-B14E-D5EA-A7D1B4D44645">
 <createdBy>jacek</createdBy>
 <createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<commentInRDBMS>Table which stores student skills. </commentInRDBMS>
 <generatorID>1567AEDC-9F77-0BED-E020-8D8FB2B1A76A</generatorID>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

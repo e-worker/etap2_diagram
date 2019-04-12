@@ -11,6 +11,7 @@
 <Column name="id" id="064204B5-F33A-4718-AE5A-4EFC3C3AB741">
 <createdBy>jacek</createdBy>
 <createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<commentInRDBMS>Table which stores types of requirements for job offer. </commentInRDBMS>
 <generatorID>DE655EB4-160C-8014-EF23-22AF06BB5BA6</generatorID>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

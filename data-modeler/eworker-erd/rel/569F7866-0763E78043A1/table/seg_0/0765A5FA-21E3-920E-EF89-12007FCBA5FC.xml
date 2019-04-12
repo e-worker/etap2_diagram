@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0765A5FA-21E3-920E-EF89-12007FCBA5FC" name="language_lvl">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-12 13:27:55 UTC</createdTime>
+<generatorID>3D0678B4-7128-8F26-1538-2F1C2E18F077</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="7980E523-167B-B9B9-63A8-21997DD5A517">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-12 13:27:55 UTC</createdTime>
+<generatorID>A7A9DA5A-2698-89B1-5919-71D7541058FF</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="level" id="1D249D64-6A12-29C5-47EF-BBE9BD80C3B8">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-12 13:27:55 UTC</createdTime>
+<generatorID>510C54E9-40DC-0DEF-4A10-E494789F53FD</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="language_id" id="E14E5CE7-6D91-9BCF-36B9-5B4DE10A13E1">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-12 13:27:55 UTC</createdTime>
+<generatorID>B8415193-65BA-289D-4F85-74977E1CEBBC</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="98EFD2D9-FFFD-16B6-DA86-E285C0A2735B" referredColumn="24B0CC3A-4FD2-1126-1CF2-865BA2DDAAC9"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="374348D5-9C90-A424-7707-EE6913B8D857" name="language_lvl_PK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-12 13:27:55 UTC</createdTime>
+<generatorID>8CE27371-062F-39C2-5EA4-D892B5AAED55</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7980E523-167B-B9B9-63A8-21997DD5A517"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9615C89C-75ED-D3A5-C1B0-3AD4069BA239" name="language_lvl_language_FK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-12 13:27:56 UTC</createdTime>
+<generatorID>DEFB9A74-1BE0-810D-C828-D96F6DA34043</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E14E5CE7-6D91-9BCF-36B9-5B4DE10A13E1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

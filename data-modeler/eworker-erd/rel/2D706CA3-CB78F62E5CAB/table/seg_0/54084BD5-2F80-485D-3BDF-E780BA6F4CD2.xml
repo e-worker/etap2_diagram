@@ -11,6 +11,7 @@
 <Column name="id" id="76F4A864-2274-D7EB-CF8C-6DC9AE1E1C9C">
 <createdBy>jacek</createdBy>
 <createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<commentInRDBMS>Table which stores available languages to pick from. </commentInRDBMS>
 <generatorID>FBA8F89B-2DD2-6822-9A77-2C59A85A9D21</generatorID>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

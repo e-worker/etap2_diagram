@@ -11,6 +11,7 @@
 <Column name="id" id="C6142020-439E-483E-442D-DC89B79EEDB3">
 <createdBy>jacek</createdBy>
 <createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<commentInRDBMS>Table which stores messages for eworker system.</commentInRDBMS>
 <generatorID>03BBEF0F-7EB1-7FE5-4D6B-3EE3585B553C</generatorID>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>

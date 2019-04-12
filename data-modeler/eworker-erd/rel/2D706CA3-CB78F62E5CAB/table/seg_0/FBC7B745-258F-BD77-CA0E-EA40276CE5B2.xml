@@ -11,6 +11,7 @@
 <Column name="id" id="0403C037-E349-5374-A1E3-040FAC014BAB">
 <createdBy>jacek</createdBy>
 <createdTime>2019-04-10 12:27:45 UTC</createdTime>
+<commentInRDBMS>Table which stores types of information for ex. achievements, volunteer etc. </commentInRDBMS>
 <generatorID>56F8E605-A7B1-8E3C-EE56-F18E4257993F</generatorID>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
