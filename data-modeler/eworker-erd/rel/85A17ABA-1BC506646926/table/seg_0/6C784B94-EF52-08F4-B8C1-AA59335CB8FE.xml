@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6C784B94-EF52-08F4-B8C1-AA59335CB8FE" name="job_offer">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-23 12:01:35 UTC</createdTime>
+<generatorID>EF302D7E-BBCD-5D08-D0E0-2545B0C2472E</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="3D68F8BE-596F-2FFE-0B51-F753935150F7">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-23 12:01:35 UTC</createdTime>
+<generatorID>8E2F7316-6E85-0621-F1B7-403B6EBDAD4A</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sallary_from" id="81E301B8-B332-9B65-6013-49FA4041F3A0">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-23 12:01:35 UTC</createdTime>
+<generatorID>7CB5EA74-2620-1338-9F3E-15FF915E9C84</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sallary_to" id="58999DFD-185B-2643-996C-8869176E49C4">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-23 12:01:35 UTC</createdTime>
+<generatorID>92144224-95F8-B8BD-04D7-C2EC29B9532A</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="creation_date" id="D1E4E07C-73C8-6428-D92A-0331F116A88D">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-23 12:01:35 UTC</createdTime>
+<generatorID>19CC8364-FE2B-E24B-2C75-F0AABDFAE2DD</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="description" id="06224DEF-CBB6-7D54-5DF6-7BA338161DE3">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-23 12:01:35 UTC</createdTime>
+<generatorID>3B167363-F712-E4FF-5965-74EDF1F5F29C</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="company_id" id="F9E8BE99-35B8-E561-40EA-650250813C65">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-23 12:01:35 UTC</createdTime>
+<generatorID>045D8D25-D47C-6783-729A-4E8D62669E65</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0D6C3D74-E69B-8020-2E22-3205E89A5310" referredColumn="6765F6BE-B151-3446-46FF-A24AE348C799"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="40FE1BAD-EE38-97F0-CBAC-6FCD7982C41B" name="job_offer_PK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-23 12:01:35 UTC</createdTime>
+<generatorID>89AF6AE1-8CE7-CAED-B34C-7264E8B2C5C9</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3D68F8BE-596F-2FFE-0B51-F753935150F7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7DADDF8B-21C3-37C9-8162-459116E2D930" name="job_offer_company_FK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-23 12:01:35 UTC</createdTime>
+<generatorID>7D0188D1-76B1-8CA5-7EE7-2C4C9487971A</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F9E8BE99-35B8-E561-40EA-650250813C65"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

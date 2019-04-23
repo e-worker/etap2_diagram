@@ -4,7 +4,7 @@
 <createdTime>2019-04-04 19:01:32 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="FB15298D-1033-BC4D-FBF0-25061865723F" value="true"/>
+<item key="85A17ABA-A7CC-22C2-5782-1BC506646926" value="true"/>
 </engineerTo>
 <adequatelyNormalized>NO</adequatelyNormalized>
 <expectedVolumes>0</expectedVolumes>
@@ -20,22 +20,8 @@
 <createdTime>2019-04-04 19:06:00 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="FB15298D-1033-BC4D-FBF0-25061865723F" value="true"/>
+<item key="85A17ABA-A7CC-22C2-5782-1BC506646926" value="true"/>
 </engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="skill_id" id="E975BDCA-F93D-9339-F7AF-ED256B5C6DB8">
-<createdBy>jacek</createdBy>
-<createdTime>2019-04-04 19:04:35 UTC</createdTime>
-<generatorID>C0F4673C-FB1A-74B3-65DD-19C21905695F</generatorID>
-<ownerDesignName>eworker-erd</ownerDesignName>
-<engineerTo>
-<item key="FB15298D-1033-BC4D-FBF0-25061865723F" value="true"/>
-</engineerTo>
-<referedAttribute>8E2F7316-6E85-0621-F1B7-403B6EBDAD4A</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -47,9 +33,23 @@
 <generatorID>91E755A2-C851-E674-5382-D4434348D388</generatorID>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="FB15298D-1033-BC4D-FBF0-25061865723F" value="true"/>
+<item key="85A17ABA-A7CC-22C2-5782-1BC506646926" value="true"/>
 </engineerTo>
 <referedAttribute>08ACF885-1CCB-EF7B-112C-10A39571247F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id1" id="D1753764-5B07-CEE3-CF22-D8D8BDC467F5">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-23 11:53:40 UTC</createdTime>
+<generatorID>5FBF642A-0541-4D73-7D62-6F2A7CB76DC4</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<engineerTo>
+<item key="85A17ABA-A7CC-22C2-5782-1BC506646926" value="true"/>
+</engineerTo>
+<referedAttribute>52DAA88B-C02D-9C3B-F511-87D463A78B7F</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
@@ -62,7 +62,7 @@
 <createdTime>2019-04-04 19:06:13 UTC</createdTime>
 <ownerDesignName>eworker-erd</ownerDesignName>
 <engineerTo>
-<item key="FB15298D-1033-BC4D-FBF0-25061865723F" value="true"/>
+<item key="85A17ABA-A7CC-22C2-5782-1BC506646926" value="true"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

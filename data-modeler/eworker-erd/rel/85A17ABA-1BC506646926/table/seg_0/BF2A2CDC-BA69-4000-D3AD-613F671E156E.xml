@@ -1,0 +1,89 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BF2A2CDC-BA69-4000-D3AD-613F671E156E" name="job_offer_skill">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-23 12:01:35 UTC</createdTime>
+<generatorID>E03E5D17-8997-FFA5-891C-7C58D5AAB4FB</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id" id="BBA2C0FD-A3CC-148B-6136-B15C4B14D084">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-23 12:01:35 UTC</createdTime>
+<generatorID>2945DA8E-5262-5F6D-BAF9-E0BECA88210A</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="skill_id" id="F2B2BB9C-F31C-7F59-5655-7D8CFE805011">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-23 12:01:35 UTC</createdTime>
+<generatorID>BA31971E-0B7B-E8A1-1198-0A1052587D6D</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7BCE9390-0881-85E5-732F-BE18A2BA3606" referredColumn="AACB283A-0CE7-DDA4-0FE0-38135497057D"/>
+</associations>
+</Column>
+<Column name="job_info_id" id="414D0DF9-CDED-1747-C873-B5A99294766E">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-23 12:01:35 UTC</createdTime>
+<generatorID>D1753764-5B07-CEE3-CF22-D8D8BDC467F5</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="B0CC17DC-BDB5-8C50-0BF9-71677A2C0444" referredColumn="21C1460D-18A2-4A65-C854-BEAE5057F0B3"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="80B1F56C-353D-209D-5ABF-D4040471B494" name="job_offer_skill_PK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-23 12:01:35 UTC</createdTime>
+<generatorID>FA9056A3-8937-D429-01E7-AF2D7330FDA0</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BBA2C0FD-A3CC-148B-6136-B15C4B14D084"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="36F7A478-665B-5789-652A-0C5619FE2C4E" name="job_offer_skill_skill_FK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-23 12:01:35 UTC</createdTime>
+<generatorID>91E755A2-C851-E674-5382-D4434348D388</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F2B2BB9C-F31C-7F59-5655-7D8CFE805011"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E295351E-0E11-329A-558D-0F5832E47638" name="job_offer_skill_job_info_FK">
+<createdBy>jacek</createdBy>
+<createdTime>2019-04-23 12:01:36 UTC</createdTime>
+<generatorID>5FBF642A-0541-4D73-7D62-6F2A7CB76DC4</generatorID>
+<ownerDesignName>eworker-erd</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="414D0DF9-CDED-1747-C873-B5A99294766E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
